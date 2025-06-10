@@ -1,21 +1,19 @@
-<<<<<<< HEAD
-# dribbble-login-ui-clone
-A frontend clone of a login UI design originally from Dribbble. Built for learning and practice purposes.
-=======
-# login_ui
+# 🔐 Dribbble Login UI Clone
 
-A new Flutter project.
+A clean static login screen UI clone built using Flutter.  
+Inspired by a design concept from [Dribbble](https://dribbble.com/shots/18567513-Login-Screen-Design).
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🖼 Preview
 
-A few resources to get you started if this is your first Flutter project:
+> 📌 Note: This is a **static UI only** — no functionality or interactivity implemented.  
+> 🎯 Designed for **mobile view only**, not responsive.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> 9bbad66 (Initial commit - Dribbble login UI clone)
+## 📁 Project Structure
+
+- Built with **Flutter**
+
+
