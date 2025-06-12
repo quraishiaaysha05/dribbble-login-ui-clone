@@ -25,15 +25,16 @@ class MyTextField extends StatelessWidget {
         TextField(
           cursorColor: pureblack,
           decoration: InputDecoration(
-              focusedBorder: OutlineInputBorder(
-                borderRadius: BorderRadius.circular(9),
-                borderSide: BorderSide(color: pureblack, width: 1.7),
-              ),
-              enabledBorder: OutlineInputBorder(
-                borderRadius: BorderRadius.circular(9),
-                borderSide: BorderSide(color: Colors.grey.shade500, width: 1.7),
-              ),
-              contentPadding: EdgeInsets.all(10)),
+            focusedBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(9),
+              borderSide: BorderSide(color: pureblack, width: 1.7),
+            ),
+            enabledBorder: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(9),
+              borderSide: BorderSide(color: Colors.grey.shade500, width: 1.7),
+            ),
+            contentPadding: EdgeInsets.symmetric(horizontal: 2, vertical: 2),
+          ),
         ),
       ],
     );

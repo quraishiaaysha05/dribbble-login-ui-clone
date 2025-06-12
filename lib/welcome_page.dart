@@ -26,7 +26,7 @@ class _WelcomePageState extends State<WelcomePage> {
               children: [
                 // img
                 Image.asset('assets/welcome.png'),
-                SizedBox(height: 25),
+                SizedBox(height: 20),
 
                 // hello
                 Text(
@@ -129,7 +129,7 @@ class _WelcomePageState extends State<WelcomePage> {
             ),
             Positioned(
               left: 40,
-              top: 160,
+              top: 120,
               child: Icon(
                 Icons.circle_outlined,
                 color: Colors.deepPurple[800],
@@ -139,7 +139,7 @@ class _WelcomePageState extends State<WelcomePage> {
             Positioned(
               left: 0,
               right: 0,
-              top: 50,
+              top: 40,
               child: Icon(
                 Icons.circle,
                 color: Colors.deepPurple[800],
@@ -147,12 +147,12 @@ class _WelcomePageState extends State<WelcomePage> {
               ),
             ),
             Positioned(
-              left: 75,
-              top: 75,
+              left: 78,
+              top: 57,
               child: Icon(
                 Icons.auto_awesome,
                 color: Colors.grey[400],
-                size: 26,
+                size: 25,
               ),
             ),
             Positioned(
@@ -165,21 +165,21 @@ class _WelcomePageState extends State<WelcomePage> {
               ),
             ),
             Positioned(
-              right: 85,
-              top: 150,
+              right: 75,
+              top: 130,
               child: Icon(
                 Icons.auto_awesome,
                 color: Colors.deepPurple[800],
-                size: 28,
+                size: 26,
               ),
             ),
             Positioned(
-              right: 65,
-              top: 270,
+              right: 55,
+              top: 220,
               child: Icon(
                 Icons.auto_awesome,
                 color: Colors.grey[400],
-                size: 20,
+                size: 18,
               ),
             ),
           ],

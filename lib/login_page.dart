@@ -17,17 +17,17 @@ class LoginPage extends StatelessWidget {
             // Img
             Image.asset('assets/login.png'),
 
-            SizedBox(height: 50),
+            SizedBox(height: 35),
 
             Text(
               'Login',
               style: TextStyle(
-                fontSize: 36,
+                fontSize: 34,
                 fontWeight: FontWeight.w900,
               ),
             ),
 
-            SizedBox(height: 30),
+            SizedBox(height: 25),
 
             // Text fields
             Align(
